@@ -2,14 +2,15 @@ package qfix
 
 import (
 	"fmt"
-	"github.com/quickfixgo/fix44/securitydefinition"
-	"github.com/robaho/fixed"
 	"strings"
 
+	"github.com/quickfixgo/fix44/securitydefinition"
+	"github.com/robaho/fixed"
+
+	. "github.com/iamcmnut/go-trader/pkg/common"
+	"github.com/iamcmnut/quickfix"
 	"github.com/quickfixgo/enum"
 	"github.com/quickfixgo/fix44/executionreport"
-	"github.com/quickfixgo/quickfix"
-	. "github.com/robaho/go-trader/pkg/common"
 )
 
 type myApplication struct {

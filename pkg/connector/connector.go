@@ -1,10 +1,10 @@
 package connector
 
 import (
-	"github.com/robaho/go-trader/pkg/common"
-	"github.com/robaho/go-trader/pkg/connector/grpc"
-	"github.com/robaho/go-trader/pkg/connector/marketdata"
-	"github.com/robaho/go-trader/pkg/connector/qfix"
+	"github.com/iamcmnut/go-trader/pkg/common"
+	"github.com/iamcmnut/go-trader/pkg/connector/grpc"
+	"github.com/iamcmnut/go-trader/pkg/connector/marketdata"
+	"github.com/iamcmnut/go-trader/pkg/connector/qfix"
 	"io"
 )
 

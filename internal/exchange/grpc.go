@@ -7,8 +7,8 @@ import (
 	"strconv"
 
 	"github.com/pkg/errors"
-	. "github.com/robaho/go-trader/pkg/common"
-	"github.com/robaho/go-trader/pkg/protocol"
+	. "github.com/iamcmnut/go-trader/pkg/common"
+	"github.com/iamcmnut/go-trader/pkg/protocol"
 )
 
 type grpcServer struct {

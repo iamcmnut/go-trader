@@ -12,13 +12,13 @@ import (
 	"time"
 
 	"github.com/quickfixgo/enum"
-	"github.com/quickfixgo/field"
+	"github.com/iamcmnut/field"
 	"github.com/quickfixgo/fix44/massquote"
 	"github.com/quickfixgo/fix44/newordersingle"
 	"github.com/quickfixgo/fix44/ordercancelreplacerequest"
 	"github.com/quickfixgo/fix44/ordercancelrequest"
-	"github.com/quickfixgo/quickfix"
-	. "github.com/robaho/go-trader/pkg/common"
+	"github.com/iamcmnut/quickfix"
+	. "github.com/iamcmnut/go-trader/pkg/common"
 )
 
 type qfixConnector struct {

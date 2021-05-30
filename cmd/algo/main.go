@@ -3,12 +3,13 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/robaho/fixed"
 	"log"
 	"time"
 
-	. "github.com/robaho/go-trader/pkg/common"
-	"github.com/robaho/go-trader/pkg/connector"
+	"github.com/robaho/fixed"
+
+	. "github.com/iamcmnut/go-trader/pkg/common"
+	"github.com/iamcmnut/go-trader/pkg/connector"
 )
 
 type algoState int
